@@ -1,0 +1,60 @@
+{
+    "name": "GraberControls",
+    "maps": [
+        {
+            "name": "LeftHand",
+            "id": "ee96b269-b161-42f4-80df-e35fe06d3e2d",
+            "actions": [
+                {
+                    "name": "Grab",
+                    "type": "Button",
+                    "id": "4e127e96-3c78-417d-b854-c8ef9a86f3a3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f14fe097-a5ee-4c7b-8c0f-2b0766f3d2fe",
+                    "path": "<OculusTouchController>{LeftHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "RightHand",
+            "id": "3821b0c8-9a5b-46d9-a68c-9437b1761b60",
+            "actions": [
+                {
+                    "name": "Grab",
+                    "type": "Button",
+                    "id": "db106bd6-d596-407d-b13e-370fc771054b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0f9cd018-a90b-43b3-94b1-48bbb3a160d0",
+                    "path": "<OculusTouchController>{RightHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

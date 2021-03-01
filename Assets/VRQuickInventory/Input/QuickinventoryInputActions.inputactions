@@ -1,0 +1,250 @@
+{
+    "name": "QuickinventoryInputActions",
+    "maps": [
+        {
+            "name": "LeftHand",
+            "id": "cd2f601c-3ad4-42ac-a65f-d53d001a6463",
+            "actions": [
+                {
+                    "name": "Open",
+                    "type": "Button",
+                    "id": "938c3c68-12d2-465a-b87a-e6e34c5f0106",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "49f93d93-4292-40ed-b7f8-b51b37c89ed8",
+                    "path": "<OculusTouchController>{LeftHand}/thumbstickClicked",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Open",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ce4db3c9-54b8-412c-bf13-dc729c90531b",
+                    "path": "<Keyboard>/a",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Open",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "RightHand",
+            "id": "e541eae5-def6-4cc8-a240-7c9b3589c8f1",
+            "actions": [
+                {
+                    "name": "Open",
+                    "type": "Button",
+                    "id": "7add67dc-8f82-442e-89d7-e4dc7839b68a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "411fc9ff-3bfe-4a28-ab62-b92991aad276",
+                    "path": "<OculusTouchController>{RightHand}/thumbstickClicked",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Open",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8cf1e27d-5695-4740-9615-a56903d3c3ba",
+                    "path": "<Keyboard>/d",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Open",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "LeftCircle",
+            "id": "cabc2362-76e9-4e93-a549-265708f0b8b5",
+            "actions": [
+                {
+                    "name": "RotateLeft",
+                    "type": "Button",
+                    "id": "e935d22d-9187-4f9f-9307-b6545ff86cd1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RotateRight",
+                    "type": "Button",
+                    "id": "e79d6be9-8791-4d9b-9eef-45ab561b335b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "GrabChosenItem",
+                    "type": "Button",
+                    "id": "ca22588f-d26a-4605-bb13-091c6f8e5678",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "FillInventory",
+                    "type": "Button",
+                    "id": "58b4fe83-951c-4897-9fa4-c15b2d6be432",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c15e6bb9-3d41-4750-b6f5-48690711563f",
+                    "path": "<OculusTouchController>{LeftHand}/secondaryButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7c610cf1-01c2-46b7-9e15-57faf2a3f29e",
+                    "path": "<OculusTouchController>{LeftHand}/primaryButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "02e0b06d-9c4f-4a6a-b410-0b420c344721",
+                    "path": "<OculusTouchController>{LeftHand}/gripPressed",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GrabChosenItem",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c105eca6-cb50-46c1-b8d9-cdc67a8577dd",
+                    "path": "<OculusTouchController>{LeftHand}/triggerPressed",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FillInventory",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "RightCircle",
+            "id": "e11f9c7e-9891-472e-b4ac-02ac131143cc",
+            "actions": [
+                {
+                    "name": "RotateLeft",
+                    "type": "Button",
+                    "id": "c63ad249-32f3-46e3-84c1-e713d4806c49",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RotateRight",
+                    "type": "Button",
+                    "id": "9ef62fe4-bdf9-4138-9325-d0d2cecf40af",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "GrabChosenItem",
+                    "type": "Button",
+                    "id": "e58b53a5-30d1-46b9-a829-1d2974ce2162",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "FillInventory",
+                    "type": "Button",
+                    "id": "22be9ea8-40fe-4a23-a017-c7f164aad7f9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a54c6302-840f-4c12-86a9-d60c918ba438",
+                    "path": "<OculusTouchController>{RightHand}/secondaryButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a276d87e-7d1c-4ca5-9d9e-d00be168d985",
+                    "path": "<OculusTouchController>{RightHand}/primaryButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "da719c70-5243-4725-a59b-d6b0993f1335",
+                    "path": "<OculusTouchController>{RightHand}/gripPressed",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GrabChosenItem",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bbff2382-c21f-4b21-b665-ef922819b1fa",
+                    "path": "<OculusTouchController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FillInventory",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
